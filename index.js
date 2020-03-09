@@ -6,5 +6,5 @@ function testFunc() {
 
 
 function superbowlWin(array){
-  array.find( obj => obj.result === "W" )
+  array.find( obj => obj.result === "W" ).map( obj => obj.year )
 }
